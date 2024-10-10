@@ -32,3 +32,13 @@ const container = document.getElementById('container');
 for (let i = 0; i < 5; i++) {
     container.appendChild(createBox());
 }
+
+container.appendChild(createBox())
+
+let boxes = document.getElementsByClassName("box")
+
+console.log(boxes)
+
+for (i of boxes) {
+    console.log(i.style.backgroundColor)
+}
